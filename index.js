@@ -6,6 +6,7 @@ const port = 3000 || process.env.PORT
 const rateLimit = require("express-rate-limit")
 require('dotenv').config()
 
+// Rate limit users access to your API
 const limiter = rateLimit({
     windowMs: 15 * 60 * 1000, // 15 minutes
     max: 20 // 20 requests
