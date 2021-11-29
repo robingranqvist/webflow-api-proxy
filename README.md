@@ -16,6 +16,8 @@ Add a .env file. Add your secret token(s) (and or URL) inside the .env file and 
 
 When deployed, simply call the "/" route of your proxy with a simple [Javascript fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) call, and you have access to whatever API you're calling without exposing your keys. Boom, that's it.
 
+Do you need to call multiple API's from your site? Or maybe multiple routes for one API? Simply add more routes in the proxy 🤙
+
 ### Start 
 
 __yarn start__ / __npm run start__
