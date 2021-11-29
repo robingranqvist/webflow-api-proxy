@@ -16,10 +16,10 @@ Add a .env file. Add your secret token(s) (and or URL) inside the .env file and 
 
 When deployed, simply call the "/api" route of your proxy with a simple [Javascript fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) call, and you have access to whatever API you're calling without exposing your keys. Boom, that's it.
 
-## Start 
+### Start 
 
-__yarn start__
+__yarn start__ / __npm run start__
 
-## Dev (Nodemon)
+### Dev (Nodemon)
 
-__yarn dev__
+__yarn dev__ / __npm run dev__
