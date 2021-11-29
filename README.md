@@ -6,9 +6,7 @@ You really don't want to expose your API keys in your Webflow front-end code. So
 
 Clone the repo & run __yarn install__ or __npm install__.
 
-Add a .env file. Add your secret token(s) (and or URL) inside the .env file and modify the Axios request to fit whatever API you're calling. I'm calling the Dribbble API, which needs a URL, an amount of shots to be pulled & an access token. 
-
-Alternatively you could just write these straight inside the Axios request.
+Add a .env file. Add your secret token(s) (and or URL) inside the .env file and modify the Axios request to fit whatever API you're calling. I'm calling the Dribbble API, which needs an URL, an amount of shots to be pulled & an access token. 
 
 [Deploy in a firebase function](https://firebase.google.com/docs/functions/get-started)
 
