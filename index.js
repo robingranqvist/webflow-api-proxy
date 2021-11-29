@@ -20,7 +20,7 @@ app.use(function(req, res, next) {
     next()
 })
 
-app.get('/api', (req, res) => {
+app.get('/', (req, res) => {
     // The API url & amount of Dribbble shots to pull
     axios.get(process.env.API_URL + process.env.API_SHOT_AMOUNT, {
         headers: {
